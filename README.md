@@ -29,4 +29,6 @@ Nazwa pliku: rolnik.java
 10. Zadanie obwód logiczny.
 Nazwa pliku: obwód_logiczny.java
 
+Projekt z Moodle'a (1pkt): projekt.zip
+
 //Gabriela Olszewska
