@@ -34,6 +34,10 @@ Nazwa pliku: wymierne.java
 \
 Nazwa pliku: rolnik.java
 
+10. Gra Blackjack.
+\
+Nazwa pliku: blackjack.txt 
+
 Dodatkowo, na zajęciach jeszcze na uczelni, pisalismy proste programy (np. 8 hetmanów, palidromy itp) ktore byly ocenione, tam rowniez dostalam kilka punktów o ktorych przypominam:)
 
 
