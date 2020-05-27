@@ -34,6 +34,8 @@ Nazwa pliku: wymierne.java
 \
 Nazwa pliku: rolnik.java
 
+Dodatkowo, na zajęciach jeszcze na uczelni, pisalismy proste programy (np. 8 hetmanów, palidromy itp) ktore byly ocenione, tam rowniez dostalam kilka punktów o ktorych przypominam:)
+\
 
 
 Projekt z Moodle'a (1pkt): projekt.zip
