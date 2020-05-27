@@ -36,7 +36,11 @@ Nazwa pliku: rolnik.java
 
 10. Gra Blackjack.
 \
-Nazwa pliku: blackjack.txt 
+Nazwa pliku: blackjack.txt
+
+11. Wyrażenia
+\
+Nazwa pliku: wyrażenia.txt
 
 Dodatkowo, na zajęciach jeszcze na uczelni, pisalismy proste programy (np. 8 hetmanów, palidromy itp) ktore byly ocenione, tam rowniez dostalam kilka punktów o ktorych przypominam:)
 
