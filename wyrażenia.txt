@@ -1,0 +1,106 @@
+public abstract class Wyrażenie {
+    public Wyrażenie(int[] argumenty) {
+        this.argumenty = argumenty;
+    }
+    protected int[] argumenty;
+    public abstract int obliczWartość();
+}
+
+public class Suma extends Wyrażenie {
+    public Suma(int[] argumenty) {
+        super(argumenty);
+    }
+    @Override
+    public int obliczWartość() { 
+        int wartość = 0;
+        for (int argument : this.argumenty) {
+            wartość += argument;
+        }
+        return wartość;
+    }
+}
+
+
+public class Stos {
+    private String[] z;
+    private Integer[] argumenty; // stos
+    private int ileElementówNaStosie;
+    
+    public Stos(String zapis) {
+        this.z = zapis.split(" ");
+        this.argumenty = new Integer[z.length()];
+    }
+    
+    
+    private Wyrażenie parsuj() throws NiepoprawneWyrażenie, StosPełny {
+        for (String oper : this.z) {
+            try {
+                int i = Integer.parseInt(oper);
+                dodajNaStos(i);
+            }
+            catch (NumberFormatException e) {
+                try {
+                    int k = obliczWyrażenie(oper);
+                    dodajNaStos(k);
+                }
+                catch (NiepoprawneWyrażenie e1) {
+                    throw e1;
+                }
+                catch (StosPełny p)
+                {
+                    throw p;
+                }
+            }
+            catch (StosPełny p)
+            {
+                
+            }
+        }
+    }
+    
+    
+    private Integer obliczWyrażenie(String operator) throws NiepoprawneWyrażenie
+    {
+        ArrayList<Integer> aktualneArgumenty = new ArrayList<Integer>();
+        int liczbaArgumentów = ileArgumentów(operator);
+         
+        if (liczbaArgumentów > ileElementówNaStosie)
+            throw new NiepoprawneWyrażenie("Za mało argumentów");
+         
+        for (int i = 0; i< liczbaArgumentów; i++)
+        {
+             try 
+             {
+                aktualneArgumenty.add(zdejmijZeStosu());
+             }
+             catch (PustyStos p)
+             {
+                 throw p;
+             }
+        }
+         
+        try
+        {
+            Wyrażenie w = stwórzWyrażenie(oper, aktualneArgumenty);
+            int wynik = w.obliczWartość();
+            return wynik;
+        }
+        catch (NiepoprawneWyrażenie nw)
+        {
+            throw nw;
+        }
+    }
+
+    private String zdejmijZeStosu() throws PustyStos
+    {
+        
+    }
+    
+    private void dodajNaStos(Integer i) throws StosPełny
+    {
+        
+    }
+    
+    
+    private Wyrażenie stwórzWyrażenie(String oper, ArrayList<Integer> argumenty);
+}
