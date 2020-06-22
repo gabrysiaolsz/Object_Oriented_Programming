@@ -37,6 +37,11 @@ Nazwa pliku: blackjack.txt
 11. Wyrażenia
 \
 Nazwa pliku: wyrażenia.txt
+\
+12. Szachy
+Nazwa pliku: szachy.zip
+Próbowałam zrobić zadanie Szachy - nie udało mi się napisać jedynie klasy Main, natomiast wszystko inne (klasy określające poszczególne bierki <goniec, hetman, król, skoczek, pionek, wieża>, pole, szachownice, status gry, wypisywanie itp.) jest napisane.
+
 
 Dodatkowo, na zajęciach jeszcze na uczelni, pisalismy proste programy (np. 8 hetmanów, palidromy itp) ktore byly ocenione, tam rowniez dostalam kilka punktów o ktorych przypominam:)
 
