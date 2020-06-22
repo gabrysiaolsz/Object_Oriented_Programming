@@ -26,13 +26,9 @@ Nazwa pliku: belki.java
 \
 Nazwa pliku: sito_erastotenesa.java
 
-8. Proszę zaimplementować klasę dla liczb wymiernych.
+7. Zadanie rolnik.
 \
-Nazwa pliku: wymierne.java
-
-9. Zadanie rolnik.
-\
-Nazwa pliku: rolnik.java
+Nazwa pliku: farmer.zip
 
 10. Gra Blackjack.
 \
