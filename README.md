@@ -2,7 +2,7 @@
 
 Poniżej wklejam polecenia zadań, wraz z nazwą pliku zawierającą rozwiązania.
 
-1. Utwórz diagram klas do gry w brydża(1pkt)
+1. Utwórz diagram klas do gry w brydża(1pkt) i utwórz diagram klas gry w Szachy(1 pkt).
 \
 Zrobiłam jeszcze gdy chodziliśmy na uczelnie, ocenił je Pan również wtedy, nie jestem jedna pewna czy wpisał Pan te punkty, więc wspominam o tym tutaj.
 
@@ -30,18 +30,12 @@ Nazwa pliku: sito_erastotenesa.java
 \
 Nazwa pliku: farmer.zip
 
-10. Gra Blackjack.
+8. Wymierne
 \
-Nazwa pliku: blackjack.txt
-
-11. Wyrażenia
-\
-Nazwa pliku: wyrażenia.txt
+Nazwa pliku: wymierne.zip
 \
 12. Szachy
 Nazwa pliku: szachy.zip
-Próbowałam zrobić zadanie Szachy - nie udało mi się napisać jedynie klasy Main, natomiast wszystko inne (klasy określające poszczególne bierki <goniec, hetman, król, skoczek, pionek, wieża>, pole, szachownice, status gry, wypisywanie itp.) jest napisane.
-
 
 Dodatkowo, na zajęciach jeszcze na uczelni, pisalismy proste programy (np. 8 hetmanów, palidromy itp) ktore byly ocenione, tam rowniez dostalam kilka punktów o ktorych przypominam:)
 
