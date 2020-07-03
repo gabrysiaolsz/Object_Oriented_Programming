@@ -1,5 +1,5 @@
 # Programowanie-obiektowe
-
+10pkt
 Poniżej wklejam polecenia zadań, wraz z nazwą pliku zawierającą rozwiązania.
 
 1. Utwórz diagram klas do gry w brydża(1pkt) i utwórz diagram klas gry w Szachy(1 pkt).
