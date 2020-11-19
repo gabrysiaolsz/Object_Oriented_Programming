@@ -1,35 +1,18 @@
 #OOP
 
-2. Napisz program liczący  nta liczbę fibonacciego (0,5pkt)
-\
-Nazwa pliku: fib.java
+1. fib.java -> finds the nth fibbonaci number
 
-3. Napisz program liczący sumę bitów w zapisach binarnych liczb od 1 do n logarytmiczna zlozono czasowa (1pkt)
-\
-Nazwa pliku: bity.java
+2. bity.java -> finds the sum of bits in binary numbers from 1 to n in O(logn)
 
-4. Zimplementuj allgorytm Manachera (1pkt)
-\
-Nazwa pliku: Manacher.java
+3. manacher.java -> Manacher's algorithm
 
-5. Zrób zadanie  belki (1pkt)
-\
-Nazwa pliku: belki.java
+4. belki.java -> https://onlinejudge.org/external/100/p10003.pdf
 
-6. Napisz  sito erastotenrsa (0,5pkt)
-\
-Nazwa pliku: sito_erastotenesa.java
+5. sito_erastotenesa.java -> Eratosthenes sieve
 
-7. Zadanie rolnik.
-\
-Nazwa pliku: farmer.zip
+6. farmer.zip -> a simple project that simulates having a farm - harvesting etc.
 
-8. Wymierne
-\
-Nazwa pliku: wymierne.zip
-\
-12. Szachy
-Nazwa pliku: szachy.zip
+7. wymierne.zip -> classes that reprezent rational numbers - adding, multiplicating them...
 
-Projekt z Moodle'a (1pkt): projekt.zip
+8. szachy.zip -> simulation of chess play 
 
